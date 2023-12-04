@@ -22,7 +22,8 @@ header {
 }
 
 .logo img {
-    height: 8vh; /* Adjust as needed */
+    height: 8vh;
+    border-radius: 2px solid black; 
 }
 
 nav ul {
@@ -44,5 +45,181 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #007bff; /* Change hover color as needed */
+    color: #007bff; 
+}
+
+.welcome{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.image-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1; /* Each column takes equal width */
+    margin: 100px 125px; /* Adjust margin as needed */
+}
+
+.image-box {
+    border: 2px solid black;
+    margin-bottom: 120px; /* Space between images */
+    /* Other styles remain the same */
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
+
+.image-box img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.image-text {
+    background-color: #fff;
+    padding: 10px;
+    height: 30%; /* Adjust to create space for text */
+    box-sizing: border-box;
+    font-size: 26px;   
+}
+
+.Community{
+    padding-left: 55px;
+    
+}
+
+.science{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.explore{
+    text-align: left;
+    font-size: 32px;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-left: 55px;
+}
+
+.kids{
+    padding-left: 55px;
+}
+
+.teachers{
+    text-align: left;
+    font-size: 32px;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-left: 55px;
+}
+
+.teach{
+    padding-left: 55px;
+}
+
+.cosmology{
+    text-align: left;
+    font-size: 32px;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-left: 55px;
+}
+
+.cosmo{
+    padding-left: 55px;
+}
+
+.evolution{
+    text-align: left;
+    font-size: 32px;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-left: 55px;
+}
+
+.centur{
+    padding-left: 55px;
+}
+
+.biology{
+    text-align: left;
+    font-size: 32px;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-left: 55px;
+}
+
+.medicine{
+    padding-left: 55px;
+}
+
+.robotics{
+    text-align: left;
+    font-size: 32px;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-left: 55px;
+}
+
+.AI{ 
+    padding-left: 55px;
+}
+
+.ecology{
+    text-align: left;
+    font-size: 32px;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-left: 55px;
+}
+
+.learn{
+    padding-left: 55px;
+}
+
+.special{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    padding-top: 100px;
+}
+
+.news{
+    text-align: left;
+    font-size: 32px;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-left: 55px;
+}
+
+.visiting{
+    padding-left: 55px;
+}
+
+.night{
+    text-align: left;
+    font-size: 32px;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-left: 55px;
+}
+
+.family{
+    padding-left: 55px;
+}
+
+.energetica{
+    text-align: left;
+    font-size: 32px;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-left: 55px;
+}
+
+.loan{
+    padding-left: 55px;
 }
