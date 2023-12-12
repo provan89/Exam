@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Ek mukta, Arial, sans-serif;
+    background-color: #F0EBDD;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 317px;
+}
+
+p {
+    font-size: 26px;
+    text-align: left;
+    padding-left: 317px;
+    padding-right: 317px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9E811A;
+    padding: 10px 20px;
+
+}
+
+.logo img {
+    height: 8vh;
+    border-radius: 2px solid black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 32px;
+    margin-right: 50px;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+.privacy {
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+    color: #111A67;
+}
+
+.policy {
+    padding-left: 317px;
+    font-size: 26px;
+    padding-right: 317px;
+}
+
+.limited {
+    margin-left: -340px;
+}
+
+.contactus {
+    padding-left: 317px;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.governing {
+    padding-left: 317px;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.terms {
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 130px;
+    color: #111A67;
+}
+
+.web {
+    padding-left: 317px;
+    font-size: 26px;
+}

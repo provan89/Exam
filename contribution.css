@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Ek mukta, Arial, sans-serif;
+    background-color:#F0EBDD ;
+  
+    
+    
+}
+h1{
+    font-size: 32px;
+    font-weight: bolder;
+}
+p{
+    font-size: 26px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9E811A;
+    padding: 10px 20px;
+    
+}
+
+.logo img {
+    height: 8vh; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 32px;
+    margin-right: 50px;
+}
+
+nav ul li a:hover {
+    color: #111A67; 
+}
+
+.get{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    padding-top: 20px;
+    color: #225fa0;
+    padding-bottom: 20px;
+}
+
+.involved{
+    text-align: center;
+}
+
+.paragraph{
+    padding-left: 317px;
+    padding-right: 317px;
+}
+
+.lib{
+    text-align: center;
+    
+}
+
+.lib img{
+    width: 50%;
+    height: 500px;
+    max-width: 100%;
+    object-fit: cover;
+    
+}
