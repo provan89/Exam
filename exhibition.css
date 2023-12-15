@@ -59,14 +59,13 @@ nav ul li a:hover {
 }
 
 .column {
-    flex: 1; /* Each column takes equal width */
-    margin: 100px 125px; /* Adjust margin as needed */
+    flex: 1;
+    margin: 100px 125px; 
 }
 
 .image-box {
     border: 2px solid black;
-    margin-bottom: 120px; /* Space between images */
-    /* Other styles remain the same */
+    margin-bottom: 120px; 
     display: flex;
     flex-direction: column;
     height: 800px;
@@ -81,7 +80,7 @@ nav ul li a:hover {
 .image-text {
     background-color: #fff;
     padding: 10px;
-    height: 30%; /* Adjust to create space for text */
+    height: 30%; 
     box-sizing: border-box;
     font-size: 26px;   
 }
@@ -223,3 +222,140 @@ nav ul li a:hover {
 .loan{
     padding-left: 55px;
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .image-box {
+        width:140%; 
+        padding-bottom: 30px;
+        background-color: #fff;
+    }
+ 
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .image-box {
+        width:130%; 
+        padding-bottom: 190px;
+        background-color: #fff;
+        height: 400px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px; 
+        margin-right: 0px;
+    }
+
+    .logo img {
+        height: 3h;
+        border-radius: 2px solid black; 
+    }
+
+    .column {
+        flex: 1;
+        margin: 300px 80px; 
+        margin-top: 30px;
+    }
+
+    .science{
+       margin-top: -250px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (min-width: 1px) and (max-width: 425px) {
+    .image-columns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    
+
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 12px; 
+        margin-right: 0px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    .image-text {
+        background-color: #fff;
+        padding: 10px;
+        height: 30%; 
+        box-sizing: border-box;
+        font-size: 16px;   
+    }
+
+    .science{
+        font-size: 24px;
+    }
+
+    .explore{
+        font-size: 24px;
+    }
+
+    .teachers{
+        font-size: 24px;
+    }
+
+    .cosmology{
+        font-size: 24px;
+    }
+
+    .evolution{
+        font-size: 24px;
+    }
+
+    .biology{
+        font-size: 24px;
+    }
+
+    .robotics{
+        font-size: 24px;
+    }
+
+    .ecology{
+        font-size: 24px;
+    }
+
+    .special{
+        font-size: 24px;
+    }
+
+    .news{
+        font-size: 24px;
+    }
+
+    .night{
+        font-size: 24px;
+    }
+
+    .energetica{
+        font-size: 24px;
+    }
+
+}
+
